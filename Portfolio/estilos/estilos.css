@@ -1,4 +1,8 @@
 /*CSS general de elementos*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: #222;
     color: rgb(255, 255, 255);
@@ -12,6 +16,7 @@ h3{
 h2{
     font-size: 36px;
     font-weight: 300;
+    line-height: 36px;
 }
 p{
     text-align: justify;
@@ -20,6 +25,9 @@ cite{
     font-weight: 300;
 }
 /*CSS IDs y Clase*/
+.seccion{
+    padding: 10px 100px 10px 100px;
+}
 .hashtag{
     color: #ffc900;
 }
@@ -30,4 +38,13 @@ cite{
 #educacion{
     background-color: #222;
     color: white;
+}
+#portfolio{
+    border-top: 1px solid #ffc900;
+}
+#inicio{
+    background-image: url("../imágenes/portada2.png");
+    min-height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
