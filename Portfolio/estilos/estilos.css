@@ -21,8 +21,14 @@ h2{
 p{
     text-align: justify;
 }
+i{
+    font-size: 24px;
+}
 cite{
     font-weight: 300;
+}
+th{
+    text-align: left;
 }
 /*CSS IDs y Clase*/
 .seccion{
@@ -47,4 +53,8 @@ cite{
     min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.fa-solid{
+    font-size: 15px;
+    margin-right: 15px;
 }
