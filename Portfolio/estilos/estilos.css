@@ -27,6 +27,18 @@ i{
 cite{
     font-weight: 300;
 }
+i:hover{
+    color: #fcc900;
+}
+a:any-link{
+    color: white;
+}
+a:-webkit-any-link{
+    color: white;
+}
+a:-moz-any-link{
+    color: white;
+}
 li{
     float: left;
     /*width: 30px;*/
@@ -64,4 +76,7 @@ li{
 .fa-solid{
     font-size: 15px;
     margin-right: 15px;
+}
+.study:hover{
+    color: #fcc900;
 }
