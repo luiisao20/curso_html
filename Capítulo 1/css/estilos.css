@@ -53,6 +53,9 @@ li{
 i{
     margin-right: 5px;
 }
+a{
+    text-decoration: none;
+}
 a:any-link{
     color:white;
 }
@@ -64,6 +67,9 @@ a:-moz-any-link {
 }
 h1{
     padding-top: 50px;
+}
+a:hover{
+    color: #ffc900;
 }
 /*Definiciones de clases y ids*/
 #educacion{

@@ -6,10 +6,10 @@
 nav{
     background-color: #222;
     position: fixed;
+    height: 55px;
     width: 100%;
     color: rgb(255, 255, 255);
     border-bottom: 1px solid white;
-    padding-top: 10px;
     text-align: center;
 }
 nav ul{
@@ -49,6 +49,9 @@ cite{
 i:hover{
     color: #fcc900;
 }
+a{
+    text-decoration: none;
+}
 a:any-link{
     color: white;
 }
@@ -57,6 +60,9 @@ a:-webkit-any-link{
 }
 a:-moz-any-link{
     color: white;
+}
+a:hover{
+    color: #ffc900;
 }
 li{
     float: left;
@@ -84,7 +90,7 @@ li{
     margin-top: 20px;
 }
 #inicio{
-    padding-top: 80px;
+    padding-top: 60px;
     background-image: url("../imágenes/portada2.png");
     min-height: 280px;
     background-repeat: no-repeat;
