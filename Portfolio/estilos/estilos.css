@@ -71,6 +71,9 @@ li{
     text-align: center;
     margin-right: 5px;
 }
+button{
+    border-radius: 10px;
+}
 /*CSS IDs y Clase*/
 .hashtag{
     color: #ffc900;
@@ -118,6 +121,10 @@ li{
 .card{
     width: 250px;
     background-color: #191919;
+    border-radius: 15px;
+}
+.card img{
+    border-radius: 15px 15px 0 0;
 }
 .card h3{
     color: #ffc900;
@@ -127,6 +134,10 @@ li{
 }
 .card h3, .card h4, .card p, .card masinfo{
     padding: 0 15px;
+}
+.card .masinfo{
+    margin: 5px 15px 5px 15px;
+    height: 26px;
 }
 .card .masinfo button{
     background-color: #ffc900;
@@ -138,4 +149,7 @@ li{
 .card .sep{
     margin: 0px 5px 5px 0px;
     border: 1px solid #ffc900;
+}
+.card button{
+    padding: 5px;
 }
