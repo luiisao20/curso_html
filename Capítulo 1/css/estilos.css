@@ -6,7 +6,7 @@
 body{
     background-color: white;
     color: #222;
-    font: 200 14px 'Poppins', sans-serif
+    font: 200 14px 'Poppins', sans-serif;
 }
 nav{
     background-color: #222;
@@ -76,7 +76,7 @@ a:hover{
     color: #ffc900;
 }
 section{
-    padding: 10px 100px 10px 100px;
+    padding: 10px 200px 10px 100px;
 }
 /*Definiciones de clases y ids*/
 #educacion{
@@ -89,7 +89,7 @@ section{
     color:
      white;
 }
-.seccion{
+.seccion, .educacion{
     padding: 10px 200px 10px 100px;
 }
 .enlace:hover{
@@ -110,4 +110,35 @@ section{
     gap: 30px 30px;
     margin-bottom: 15px;
     margin-top: 15px;
+}
+.grideducation{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.education{
+    background-color: #222;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+}
+.education ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.education li{
+    padding: 5px;
+}
+.education h3{
+    margin-bottom: 5px;
+}
+.education p{
+    text-align: left;
+    padding-top: 5px;
+}
+.education img{
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
