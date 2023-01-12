@@ -3,6 +3,22 @@
     margin: 0px;
     padding: 0px;
 }
+nav{
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 20px;
+    text-align: center;
+}
 body{
     background-color: #222;
     color: rgb(255, 255, 255);
@@ -44,6 +60,7 @@ a:-moz-any-link{
 }
 li{
     float: left;
+    list-style: none;
     /*width: 30px;*/
     text-align: center;
     margin-right: 5px;
@@ -64,10 +81,10 @@ li{
     border-top: 1px solid #ffc900;
 }
 #redes{
-    list-style: none;
     margin-top: 20px;
 }
 #inicio{
+    padding-top: 80px;
     background-image: url("../imágenes/portada2.png");
     min-height: 280px;
     background-repeat: no-repeat;
@@ -79,4 +96,7 @@ li{
 }
 .study:hover{
     color: #fcc900;
+}
+#logo{
+    padding-top: 7px;
 }
