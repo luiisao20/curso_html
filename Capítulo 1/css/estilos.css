@@ -39,12 +39,19 @@ h3 {
 p{
     text-align: justify;
 }
+table{
+    margin: 10px;
+    align-content: center;
+}
 thead{
     background-color: #222;
     color: white;
 }
+h1{
+    padding-top: 50px;
+}
 td{
-    min-width: 150px;
+    min-width: 10px;
 }
 li{
     list-style: none;
@@ -65,11 +72,11 @@ a:-webkit-any-link {
 a:-moz-any-link {
     color:white;
 }
-h1{
-    padding-top: 50px;
-}
 a:hover{
     color: #ffc900;
+}
+section{
+    padding: 10px 100px 10px 100px;
 }
 /*Definiciones de clases y ids*/
 #educacion{
@@ -90,4 +97,17 @@ a:hover{
 }
 #logo{
     padding-top: 5px;
+}
+.fa-solid{
+    font-size: 15px;
+    margin-right: 15px;
+}
+#datospers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
