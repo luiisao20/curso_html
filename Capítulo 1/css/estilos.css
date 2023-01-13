@@ -168,3 +168,6 @@ input[type="submit"]{
     grid-column: 2/3;
     justify-self: end;
 }
+iframe{
+    border-radius: 10px;
+}

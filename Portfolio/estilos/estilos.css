@@ -151,7 +151,7 @@ button{
     background-color: #191919;
     border-radius: 15px;
 }
-.card img{
+.card img, .card video, .card iframe{
     border-radius: 15px 15px 0 0;
 }
 .card h3{
