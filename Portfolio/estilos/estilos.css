@@ -64,6 +64,23 @@ a:-moz-any-link{
 a:hover{
     color: #ffc900;
 }
+table{
+    border: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    background-color: #ffc900;
+    color: #222;
+    padding: 10px;
+    border-radius: 15px;
+}
+td{
+    padding: 10px 10px 5px 10px;
+}
 li{
     float: left;
     list-style: none;
@@ -83,6 +100,9 @@ button{
     color: #222;
 }
 #educacion{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid white;
     background-color: #222;
     color: white;
 }
@@ -117,11 +137,19 @@ button{
     margin-top: 5px;
     padding: 5px;
 }
+#datos{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+#datospers{
+    padding: 50px 10px;
+}
 /*Grid sobremi*/
 #sobremi #imgsobremi{
     margin-left: -50px;
 }
 #sobremi{
+    border-bottom: 1px solid white;
     display: grid;
     grid-template-columns: 250px 1fr;
 }
@@ -178,7 +206,7 @@ button{
 /*Grid cardexp*/
 .gridexp{
     display: grid;
-    grid-template-columns: repeat(4, 350px);
+    grid-template-columns: repeat(3, 350px);
     grid-gap: 10px;
     justify-content: space-between;
     align-content: space-around;
@@ -230,4 +258,18 @@ input[type="submit"]{
     padding: 10px;
     grid-column: 2/3;
     justify-self: end;
+}
+footer{
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+footer ul{
+    display: inline-block;
+}
+footer ul li{
+    float: left;
+}
+.foot{
+    padding-top: 10px;
 }
