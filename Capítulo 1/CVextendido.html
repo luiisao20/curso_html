@@ -147,5 +147,30 @@
             </div>
         </div>
         <!--FIN Bloque Educación-->
+        <div class="seccion" id="comentario">
+            <h2>ENVIAR COMENTARIO</h2>
+            <form action="#">
+                <div class="formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" minlength="2" maxlength="64" size="32" required>
+                    </div>
+                <div class="formulario">
+                    <label for="prioridad">Prioridad</label>
+                    <select name="prioridad" id="seleccionarprioridad">
+                        <option value="baja">Baja</option>
+                        <option value="media">Media</option>
+                        <option value="alta">Alta</option>
+                        <option value="urg">Urgente</option>
+                    </select>
+                </div>
+                <div class="formulario">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="25" rows="5"></textarea>
+                </div>
+                <div class="formulario">
+                    <input type="submit" name="enviar" value="ENVIAR MENSAJE">
+                </div>
+            </form> 
+        </div>
  </body>
 </html>

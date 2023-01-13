@@ -142,3 +142,29 @@ section{
     border-radius: 20px;
     margin-bottom: 10px;
 }
+#comentario{
+    background-color: #222;
+    color: white;
+}
+.formulario{
+    display: grid;
+    grid-template-columns: 150px 300px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.formulario label{
+    font-weight: 500;
+}
+.formulario input, .formulario textarea, .formulario select{
+    border-radius: 10px;
+    border: 1px solid white;
+}
+input[type="submit"]{
+    border: 1px solid #222;
+    background-color: #ffc900;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-column: 2/3;
+    justify-self: end;
+}

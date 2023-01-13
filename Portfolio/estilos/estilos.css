@@ -178,7 +178,7 @@ button{
 /*Grid cardexp*/
 .gridexp{
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(4, 350px);
     grid-gap: 10px;
     justify-content: space-between;
     align-content: space-around;
@@ -205,4 +205,29 @@ button{
 }
 .cardexp li{
     height: 30px;
+}
+#contactar{
+    background-color: #ffc900;
+    color: #222
+}
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.itemform label{
+    font-weight: 700;
+}
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+input[type="submit"]{
+    background-color: #222;
+    border: 1px solid #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
 }
