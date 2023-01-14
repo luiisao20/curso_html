@@ -211,6 +211,17 @@ button{
     justify-content: space-between;
     align-content: space-around;
 }
+@media (min-width: 400px) {
+    .gridexp{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px 30px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+}
 .cardexp{
     background-color: #222;
     border-radius: 15px;
