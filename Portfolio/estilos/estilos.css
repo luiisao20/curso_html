@@ -199,7 +199,7 @@ button{
     margin: 0px 5px 5px 0px;
     border: 1px solid #ffc900;
 }
-.card masinfo button{
+.card .masinfo button{
     float: right;
     padding: 5px;
 }
